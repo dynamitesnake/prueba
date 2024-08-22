@@ -10,6 +10,7 @@ public class CineLabProg1 {
         ArrayList<Pelicula> pelicula = new ArrayList();
         Scanner leer = new Scanner(System.in);
         String nuev;
+        System.out.println("hola");
         do {
             System.out.println("Ingrese titulo de la pelicula");
             String titu = leer.nextLine();
